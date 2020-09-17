@@ -9,9 +9,6 @@ namespace SalesTransaction.Model
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public string InsertPersonId { get; set; }
-        public string InsertDate { get; set; }
-
-
+  
     }
 }

@@ -5424,11 +5424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj",
+      "projectUniqueName": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj",
       "projectName": "SalesTransaction.Model",
-      "projectPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj",
+      "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj",
       "packagesPath": "C:\\Users\\subek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Model\\obj\\",
+      "outputPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

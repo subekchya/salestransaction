@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SalesTransaction.Service\\Account",
+    "\\SalesTransaction.WebAPI",
+    "\\SalesTransaction.WebAPI\\Controllers",
+    "\\SalesTransaction.WebAPI\\Controllers\\LoginController"
+  ],
+  "SelectedNode": "\\SalesTransaction.WebAPI\\Controllers\\LoginController\\LoginController.cs",
+  "PreviewInSolutionExplorer": false
+}

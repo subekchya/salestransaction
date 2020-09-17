@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using SalesTransaction.DataAcess;
+using SalesTransaction.Model;
 //using SalesTransaction.Model.Account;
 //using SalesTransaction.DataAcess;
 using System;
@@ -103,7 +104,12 @@ namespace SalesTransaction.Service.Account
                     }
                 }
             }
+
+        dynamic IAccountService.GetLogin(MvLogin login)
+        {
+            throw new NotImplementedException();
         }
+    }
 
     }
 }

@@ -1404,6 +1404,22 @@
         "runtime": {
           "bin/placeholder/SalesTransaction.DataAccess.dll": {}
         }
+      },
+      "SalesTransaction.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/SalesTransaction.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesTransaction.Model.dll": {}
+        }
       }
     }
   },
@@ -5428,6 +5444,11 @@
       "type": "project",
       "path": "../SalesTransaction.DataAcess/SalesTransaction.DataAccess.csproj",
       "msbuildProject": "../SalesTransaction.DataAcess/SalesTransaction.DataAccess.csproj"
+    },
+    "SalesTransaction.Model/1.0.0": {
+      "type": "project",
+      "path": "../SalesTransaction.Model/SalesTransaction.Model.csproj",
+      "msbuildProject": "../SalesTransaction.Model/SalesTransaction.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5436,6 +5457,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Newtonsoft.Json >= 12.0.3",
       "SalesTransaction.DataAccess >= 1.0.0",
+      "SalesTransaction.Model >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -5446,11 +5468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj",
+      "projectUniqueName": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj",
       "projectName": "SalesTransaction.Service",
-      "projectPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj",
+      "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj",
       "packagesPath": "C:\\Users\\subek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.Service\\obj\\",
+      "outputPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5469,8 +5491,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj"
+            "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj"
+            },
+            "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj": {
+              "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj"
             }
           }
         }

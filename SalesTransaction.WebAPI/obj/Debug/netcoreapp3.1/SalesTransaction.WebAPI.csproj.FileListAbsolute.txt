@@ -62,3 +62,10 @@ C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.WebAPI\bin\Debug\netcor
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.csprojAssemblyReference.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.AssemblyInfoInputs.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.AssemblyInfo.cs
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.dll
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.WebAPI\obj\Debug\netcoreapp3.1\SalesTransaction.WebAPI.pdb

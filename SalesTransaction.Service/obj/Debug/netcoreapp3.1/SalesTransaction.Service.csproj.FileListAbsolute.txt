@@ -55,3 +55,9 @@ C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.Service\bin\Debug\netco
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\subek\Desktop\SalesTransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csproj.CoreCompileInputs.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csprojAssemblyReference.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.AssemblyInfoInputs.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.AssemblyInfo.cs
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.csproj.CoreCompileInputs.cache
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.dll
+C:\Users\subek\Desktop\Subekchya\salestransaction\SalesTransaction.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Service.pdb

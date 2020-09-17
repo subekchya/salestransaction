@@ -5424,11 +5424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
       "projectName": "SalesTransaction.DataAccess",
-      "projectPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
+      "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
       "packagesPath": "C:\\Users\\subek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\obj\\",
+      "outputPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

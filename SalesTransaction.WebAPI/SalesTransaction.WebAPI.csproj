@@ -15,5 +15,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SalesTransaction.Model\SalesTransaction.Model.csproj" />
+    <ProjectReference Include="..\SalesTransaction.Service\SalesTransaction.Service.csproj" />
+  </ItemGroup>
+
 
 </Project>

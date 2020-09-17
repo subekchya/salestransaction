@@ -19,6 +19,10 @@ namespace SalesTransaction.DataAcess
                           "Connection Timeout = 30;"
                 );
 
+        public DataAccessHelper(string connectionString)
+        {
+        }
+
         //establishing connection
 
         public void SetConnection()
@@ -46,6 +50,16 @@ namespace SalesTransaction.DataAcess
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("ex.Message");
             }
+        }
+
+        public dynamic GetJson(SqlDataReader rdr)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDisposable GetConnection()
+        {
+            throw new NotImplementedException();
         }
     }
 }

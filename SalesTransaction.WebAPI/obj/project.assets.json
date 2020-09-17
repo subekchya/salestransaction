@@ -1388,6 +1388,56 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "SalesTransaction.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/SalesTransaction.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesTransaction.DataAccess.dll": {}
+        }
+      },
+      "SalesTransaction.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/SalesTransaction.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesTransaction.Model.dll": {}
+        }
+      },
+      "SalesTransaction.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Newtonsoft.Json": "12.0.3",
+          "SalesTransaction.DataAccess": "1.0.0",
+          "SalesTransaction.Model": "1.0.0",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/SalesTransaction.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalesTransaction.Service.dll": {}
+        }
       }
     }
   },
@@ -5407,6 +5457,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SalesTransaction.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../SalesTransaction.DataAcess/SalesTransaction.DataAccess.csproj",
+      "msbuildProject": "../SalesTransaction.DataAcess/SalesTransaction.DataAccess.csproj"
+    },
+    "SalesTransaction.Model/1.0.0": {
+      "type": "project",
+      "path": "../SalesTransaction.Model/SalesTransaction.Model.csproj",
+      "msbuildProject": "../SalesTransaction.Model/SalesTransaction.Model.csproj"
+    },
+    "SalesTransaction.Service/1.0.0": {
+      "type": "project",
+      "path": "../SalesTransaction.Service/SalesTransaction.Service.csproj",
+      "msbuildProject": "../SalesTransaction.Service/SalesTransaction.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5414,6 +5479,8 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Newtonsoft.Json >= 12.0.3",
+      "SalesTransaction.Model >= 1.0.0",
+      "SalesTransaction.Service >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -5424,11 +5491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.WebAPI\\SalesTransaction.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.WebAPI\\SalesTransaction.WebAPI.csproj",
       "projectName": "SalesTransaction.WebAPI",
-      "projectPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.WebAPI\\SalesTransaction.WebAPI.csproj",
+      "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.WebAPI\\SalesTransaction.WebAPI.csproj",
       "packagesPath": "C:\\Users\\subek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5446,7 +5513,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj": {
+              "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Model\\SalesTransaction.Model.csproj"
+            },
+            "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj": {
+              "projectPath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.Service\\SalesTransaction.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

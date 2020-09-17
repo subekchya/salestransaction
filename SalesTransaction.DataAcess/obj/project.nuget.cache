@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEeUnyAlL+z4h9c60PaWcj2Ju33hMm/WhzIG2cG9nGdHyFzVwSlNPJdZ5SJ02koNWFiHz9DMSoN/AKySuLIo/Q==",
+  "dgSpecHash": "aGIxW7m+murVtb51FA2yprXTE2ZUG+Af439WCqdxjPfpnODuH6576WOF4ck6jusKznhKP0oFQw927GCv0DXXAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\subek\\Desktop\\SalesTransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\subek\\Desktop\\Subekchya\\salestransaction\\SalesTransaction.DataAcess\\SalesTransaction.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\subek\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\subek\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
